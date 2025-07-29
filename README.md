@@ -90,13 +90,12 @@ What is the probability, that a worker can do the combined movement? starting fr
 
 The diagram shows the tree diagram but made in scale, but the x- axis is the portion of the probability of each course of events is made in scale. The lowest blue curve represents the scale of the output movements. So what is shown on the "tree" diagram as the right branch is the course of events with first event as Output (p=2/3) and next an Input(p=1/3) with a total probability of 2/9 = 22%, which is now the first step (Step height is 1, because we talk about one output event) on a stairway curve with totally two steps with an width of the step is 22%. And the outer right-right branch of the upper "tree" curve is the next step of the blue curve, and it has a width of 44% (=2/3*2/3=4/9). And the height of the step is 2, because we have 2 output events. Similarly the red curve shows the probability of the input cycle, but in scale. The steepest part is on the left side, and it represents the outer left branch of the tree scheme above, with a probability of 1/3 * 1/3 = 1/9 (11%), which is then the width of the first step of the downward going light red stairway curve. The height of this step is 2 because it is two input movements together. In the middle is another brick, with a width of 1/3* 2/3= 33% and the height of 1. The top grey curve shows the part of the combined cycle, which is marked in grey colour in the tree diagram. The width (synonymous with probability) is 1/3*2/3 =2/9 =22% and the height is 1, as we are having only one event. If we wouldn't have the "synergy" effect of the combined cycle, the height of this block would have to be 2, but as we have only one movement to do, the height of this block is only 1. The area below each of these 3 different curves represents the probability of the respective event. So the area under output cycle curve is 0.22*1 +0.44*2= 0.22+0.88=1. The area under the input curve is 0.11*2+0.22*1=0.44 and the area under the combined cycle curve is 0.22*1=0.22. The area under all the three curves together must be 1 (100%) as it cannot be more. And the probability of the output cycle is the quotient of area under the output curve with the total area under all three curves. So the area under the output curve was 1 and the area under all curves together is 0.22+0.44+1=1.6, so the relative probability of the output cycle is therefore 1/1.6=0.6 (60% probability of the output cycle) Respectively, the relation of the area under input curve to the total area is 0.44/1.6=0.265 (meaning a probability of 26.5% for the input cycle) And the probability of the combined cycle is 0.2271.6= 0.13 (13%) Totally all probabilities must sum up to 100% = 13.5%+26.5% + 60%= 100%.
 
-3 Consecutive Events
 
 ![3-pr-2-add](https://github.com/ReinhardLenz/input_output_combine/assets/71219487/ac785b62-06af-4fee-8414-e884e005c6bc)
 
 The probability of the different events (combined, input, output) is the area of the respective event divided by the area of all the events together.
 
-4 Consecutive Events
+3 Consecutive Events
 
 ![4-puu-3](https://github.com/ReinhardLenz/input_output_combine/assets/71219487/36be4e16-2cc5-4fc0-8e37-9dda38a1c99f)
 
@@ -107,7 +106,6 @@ Graph becomes too wide for tree diagram, but numeric results still valid
 The next step in the consideration is to add one step more, so we would have 3 consecutive events. The combined cycle now appears three times in a total amount of eight different possibilities of events. So dependent on the amount of consecutive events, the possibilities are always 2 to the square of event amount. Respectively, the chain of 3 consecutive input events is 1/3*1/3*1/3=1/27 0.037 = 3.7% which is not high number.
 
 ![5-pr-3](https://github.com/ReinhardLenz/input_output_combine/assets/71219487/2a53cf83-2dea-451e-b580-82f752c8e8ea)
-
 
 So with 3 consecutive events, the probability of combined cycle is 18%, the probability of input cycle is 22% and probability of output cycle is 60% and the sum of all probabilities is of course 100%. We can also see, that our "stairway curve" has got one step more, total three steps, but the combined cycle curve has only one step.
 
